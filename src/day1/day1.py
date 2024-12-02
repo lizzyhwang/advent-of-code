@@ -27,7 +27,6 @@ def main():
     item = int(i)
     score_counter += item * number_of_instances(item, list2)
 
-  print(number_of_instances(81168, list2))
   print("part 1 solution:", diff_counter)
   print("part 2 solution:", score_counter)
 
